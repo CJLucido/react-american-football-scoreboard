@@ -120,3 +120,17 @@
   margin: 1rem;
   border-radius: 4px;
 }
+
+.newButtonsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: baseline;
+  flex-wrap: wrap;
+}
+
+.newButtons {
+  background-color: #0d0d0d;
+  color: white;
+  max-width: 10%
+}
